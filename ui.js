@@ -1,11 +1,16 @@
 'use strict';
 const React = require('react');
-const {Text} = require('ink');
+const {Text, Box} = require('ink');
+const importJsx = require('import-jsx');
+const Board = importJsx('./Board.jsx');
 
-const App = ({name = 'Stranger'}) => (
-	<Text>
-		Hello, <Text color="green">{name}</Text>
-	</Text>
+const App = () => (
+  <Box
+    flexDirection="column"
+  >
+		<Text color="green">Starting TicTacToe...</Text>
+    <Board />
+  </Box>
 );
 
 module.exports = App;

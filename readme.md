@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-$ npm install --global tic-tac-toe
+$ npx tic-tac-toe
 ```
 
 
@@ -18,10 +18,4 @@ $ tic-tac-toe --help
   Usage
     $ tic-tac-toe
 
-  Options
-    --name  Your name
-
-  Examples
-    $ tic-tac-toe --name=Jane
-    Hello, Jane
 ```
